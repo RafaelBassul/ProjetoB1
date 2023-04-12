@@ -1,0 +1,194 @@
+nav {
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.6vw;
+}
+
+nav a {
+  text-decoration: none;
+  color: aliceblue;
+  padding-left: 3.5vw;
+  padding-right: 3.5vw;
+  padding-bottom: 0.4vw;
+  padding-top: 0.4vw;
+  font-size: 1vw;
+  border-right: 1px solid black;
+}
+
+nav a:last-child {
+  border-right: 0px;
+}
+
+nav a:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+* {
+  margin: 0px;
+  padding: 0%;
+}
+
+footer {
+  width: 100%;
+  height: 2.6vw;
+  background-color: brown;
+}
+
+#all {
+  width: 100%;
+  height: 89.6vh;
+}
+#contato {
+  width: 100%;
+  height: 50%;
+}
+#DIVtitulo {
+  width: 100%;
+  height: 18%;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#titulo {
+  font-family: sans-serif;
+  color: brown;
+  font-size: 1.5vw;
+}
+
+#DIVemail {
+  width: 100%;
+  height: 40%;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#iconeemail {
+  height: 13vw;
+  width: 13vw;
+  padding-left: 30vw;
+}
+
+#email {
+  font-size: 1.5vw;
+  font-family: sans-serif;
+  color: brown;
+  text-align: center;
+  padding-right: 30vw;
+}
+
+#DIVtelefone {
+  width: 100%;
+  height: 40%;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#iconetelefone {
+  height: 7vw;
+  width: 7vw;
+  padding-left: 29vw;
+}
+
+#telefone {
+  font-size: 1.5vw;
+  font-family: sans-serif;
+  color: brown;
+  text-align: center;
+  padding-right: 25vw;
+}
+
+#DIVmensagemdireta {
+  width: 100%;
+  height: 98%;
+  background-color: antiquewhite;
+}
+
+#DIVtitulodamsg {
+  width: 100%;
+  height: 15%;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 2vh;
+}
+
+#titulodamsg {
+  font-family: sans-serif;
+  color: brown;
+  font-size: 1.5vw;
+}
+
+#direta {
+  font-family: sans-serif;
+  color: brown;
+  font-size: 1.5vw;
+}
+#divparaosimput {
+  display: flex;
+  background-color: antiquewhite;
+  width: 100%;
+  height: 85%;
+}
+
+#divparainformações {
+  width: 50%;
+  height: 100%;
+  background-color: antiquewhite;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  padding-bottom: 2vh;
+}
+
+#nome {
+  height: 2vw;
+  width: 20vw;
+}
+
+#Email {
+  height: 2vw;
+  width: 20vw;
+}
+
+#dataNascimento {
+  height: 2vw;
+  width: 20vw;
+}
+
+#formdadata {
+  padding-right: 6.6vw;
+}
+
+label {
+  font-family: sans-serif;
+  color: brown;
+  font-size: 1vw;
+}
+
+#botão {
+  height: 2vw;
+  width: 10vw;
+}
+
+#DIVdamensagem {
+  height: 100%;
+  width: 50%;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
