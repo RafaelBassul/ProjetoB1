@@ -4,6 +4,7 @@ nav {
   justify-content: center;
   align-items: center;
   height: 2.6vw;
+  padding-left: 2vw;
 }
 
 nav a {
@@ -15,6 +16,7 @@ nav a {
   padding-top: 0.4vw;
   font-size: 1vw;
   border-right: 1px solid black;
+  background-color: brown;
 }
 
 nav a:last-child {
@@ -28,17 +30,24 @@ nav a:hover {
 * {
   margin: 0px;
   padding: 0%;
+  background-color: antiquewhite;
 }
 
 footer {
   width: 100%;
   height: 2.6vw;
   background-color: brown;
+  bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  position: fixed;
 }
 
 #all {
   width: 100%;
-  height: 89.6vh;
+  height: 94vh;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 #contato {
   width: 100%;
@@ -64,14 +73,13 @@ footer {
   height: 40%;
   background-color: antiquewhite;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 #iconeemail {
   height: 13vw;
   width: 13vw;
-  padding-left: 30vw;
 }
 
 #email {
@@ -79,7 +87,6 @@ footer {
   font-family: sans-serif;
   color: brown;
   text-align: center;
-  padding-right: 30vw;
 }
 
 #DIVtelefone {
@@ -87,14 +94,16 @@ footer {
   height: 40%;
   background-color: antiquewhite;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
+
+/*tive que por padding por causa das dimenções diferentes dos icones*/
 
 #iconetelefone {
   height: 7vw;
   width: 7vw;
-  padding-left: 29vw;
+  padding-left: 22vw;
 }
 
 #telefone {
@@ -102,7 +111,7 @@ footer {
   font-family: sans-serif;
   color: brown;
   text-align: center;
-  padding-right: 25vw;
+  padding-right: 18vw;
 }
 
 #DIVmensagemdireta {
@@ -120,6 +129,7 @@ footer {
   justify-content: center;
   flex-direction: column;
   padding-top: 2vh;
+  border-top: 1px solid brown;
 }
 
 #titulodamsg {
@@ -157,16 +167,25 @@ form {
 #nome {
   height: 2vw;
   width: 20vw;
+  background-color: aliceblue;
+  font-size: 1vw;
+  padding: 0.5vw;
 }
 
 #Email {
   height: 2vw;
   width: 20vw;
+  background-color: aliceblue;
+  font-size: 1vw;
+  padding: 0.5vw;
 }
 
 #dataNascimento {
   height: 2vw;
   width: 20vw;
+  background-color: aliceblue;
+  font-size: 1vw;
+  padding: 0.5vw;
 }
 
 #formdadata {
@@ -182,6 +201,7 @@ label {
 #botão {
   height: 2vw;
   width: 10vw;
+  background-color: aliceblue;
 }
 
 #DIVdamensagem {
@@ -191,4 +211,12 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#mensagem {
+  background-color: aliceblue;
+  height: 20vh;
+  width: 70vh;
+  font-size: 1vw;
+  padding: 0.5vw;
 }

@@ -1,0 +1,165 @@
+nav {
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.6vw;
+  padding-left: 2vw;
+}
+
+nav a {
+  text-decoration: none;
+  color: aliceblue;
+  padding-left: 3.5vw;
+  padding-right: 3.5vw;
+  padding-bottom: 0.4vw;
+  padding-top: 0.4vw;
+  font-size: 1vw;
+  border-right: 1px solid black;
+  background-color: brown;
+}
+
+nav a:last-child {
+  border-right: 0px;
+}
+
+nav a:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+
+* {
+  margin: 0px;
+  padding: 0%;
+  background-color: antiquewhite;
+}
+#all {
+  height: 89.6vh;
+}
+footer {
+  width: 100%;
+  height: 2.6vw;
+  background-color: brown;
+  bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  position: fixed;
+}
+
+#DIVtitulo {
+  width: 100%;
+  height: 10%;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: brown;
+  font-size: 1.5vw;
+  padding-top: 1%;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: brown;
+  font-size: 1.2vw;
+}
+
+#DIVcolunas {
+  height: 90%;
+  width: 100%;
+  display: flex;
+}
+
+/*sim, eu sei que poderia usar class ao invés de ID a pardir de agora, porém
+queria ver se eu estava fazendo tudo certinho para não errar na lógica do código*/
+
+#coluna1 {
+  height: 100%;
+  width: 25%;
+  border-right: 1px solid brown;
+}
+
+#coluna2 {
+  height: 100%;
+  width: 25%;
+}
+
+#LINHAesquerda1 {
+  height: 33.3%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  border-bottom: 1px solid brown;
+}
+
+#LINHAesquerda2 {
+  height: 33.3%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  border-bottom: 1px solid brown;
+}
+
+#LINHAesquerda3 {
+  height: 33.2%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+#LINHAdireita1 {
+  height: 33.3%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid brown;
+}
+
+#LINHAdireita2 {
+  height: 33.3%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid brown;
+}
+
+#LINHAdireita3 {
+  height: 33.2%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  height: 11vw;
+  width: 11vw;
+  padding: 1vw;
+}
+
+.coluninha {
+  height: 100%;
+  width: 40%;
+}
+
+.will2 {
+  height: 100.1%;
+  width: 100%;
+  transform: scaleX(-1);
+  padding: 0px;
+}
+
+.will {
+  height: 100.1%;
+  width: 100%;
+  padding: 0px;
+}
